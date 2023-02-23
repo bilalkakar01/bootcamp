@@ -16,6 +16,7 @@ public class GreetingActivity extends AppCompatActivity {
         textView= findViewById(R.id.greetingMessage);
         Intent intent = getIntent();
         String str =intent.getStringExtra("name");
+        //printlin();
         textView.setText(str);
     }
 }
